@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bahianita&display=swap');
+    </style>
+    <title>SuperSonics</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="font">SuperSonics</h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#tours">Tours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#music">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#videos">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#photos">Photos</a>
+            </li>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </ul>
+        <img src="https://img2.thejournal.ie/inline/2153660/original/?width=630&version=2153660" width="100%" height="500px"></img>
+    </header>
+    <section>
+        <h1> SuperSonics 50th Anniversary</h1>
+        <p>By any measure, 1967 was one amazing year for rock, pop and soul music. The year gave us not only Sgt. Pepper but debut albums by The Doors, Jimi Hendrix, David Bowie, Pink Floyd and The Velvet Underground; dozens of landmark hit singles and albums;
+            game-changing events like the Monterey Pop Festival and the deaths of Otis Redding and Beatles manager Brian Epstein; and so much more.</p>
+        <hr>
+    </section>
+    <section>
+        <div>
+            <h1 id="tours">Tours Dates</h1>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">July 1<sup>st</sup></h5>
+                            <p class="card-text">Regent's Park Music Festival Sun, 12:30 – 17:30 The Regent's Park, Chester Rd London
+                            </p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            <div class="dates">
+                                <img src="https://s0.geograph.org.uk/photos/48/02/480282_1b294031.jpg" height="100%" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 space">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">September 8<sup>th</sup></h5>
+                            <p class="card-text">Gunnersville Festival, Sun, 12:00 - Gunnersbury Park Popes Ln, London</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            <div class="dates">
+                                <img src="https://images.pexels.com/photos/1249290/pexels-photo-1249290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="100%" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">August 25<sup>th</sup></h5>
+                            <p class="card-text">80s In the Park Festival, Mon 12:00 - Three Mills Green & Three Mills Island</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            <div class="dates">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Taylor_Swift_-_The_1989_World_Tour_-_Crowd_at_HYDE_Park_during_Wildest_Dream_%26_Enchanted_performance.jpg/1200px-Taylor_Swift_-_The_1989_World_Tour_-_Crowd_at_HYDE_Park_during_Wildest_Dream_%26_Enchanted_performance.jpg"
+                                    height="100%" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">September 15<sup>th</sup></h5>
+                            <p class="card-text">BBC Radio 2 Live in Hyde Park Sun, 00:00, Hyde Park</p>
+                            <a href="#" class="btn btn-primary">Book Now</a>
+                            <div class="dates">
+                                <img src="data:image/jpeg;base64,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"
+                                    height="100%" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <section>
+        <h1 id="music">Music</h1>
+        <figure>
+            <figcaption>My Fault</figcaption>
+            <audio controls="controls"> 
+           <source src="audio/Small_Tall_Order_-_02_-_My_Fault.mp3" type="audio/mpeg">
+           <source src="audio/Small_Tall_Order_-_02_-_My_Fault.ogg" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+        </figure>
+        <figcaption>Distructing Own Kingdom</figcaption>
+        <audio controls="controls"> 
+           <source src="audio/Destructing_Own_Kingdom.mp3" type="audio/mpeg">
+           <source src="audio/Destructing_Own_Kingdom.ogg" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+        </figure>
+        <figcaption>Dark_Room</figcaption>
+        <audio controls="controls"> 
+           <source src="audio/XTaKeRuX_-_01_-_Dark_Room.mp3" type="audio/mpeg">
+           <source src="audio/XTaKeRuX_-_01_-_Dark_Room.ogg" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+        </figure>
+        <figcaption>Until We Get By</figcaption>
+        <audio controls="controls"> 
+           <source src="audio/01_-_Until_We_Get_By.mp3" type="audio/mpeg">
+           <source src="audio/01_-_Until_We_Get_By.ogg" type="audio/ogg">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+        </figure>
+    </section>
+
+    <hr>
+
+    <section>
+        <h1 id="videos"> Videos</h1>
+        <figcaption>Catch us at Nova Rock Festival!</figcaption>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/3rEmOR6qEh0">
+</iframe>
+    </section>
+    <section>
+        <h1 id="photos"> Photos</h1>
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.alivenetwork.com/images/extrabandpics/Supersonic-Rock-Pop-Band-Cambridgeshire-2-Largest.jpg" height="300px" width="450px">
+                <img src="https://cdn.alivenetwork.com/images/bands/supersonic-rock-pop-band-cambridgeshire-1-profile.jpg" height="300px" width="450px">
+                <img src="https://cdn.alivenetwork.com/images/extrabandpics/Supersonic-Rock-Pop-Band-Cambridgeshire-4-Largest.jpg" height="300px" width="450px">
+               <img src="https://s3-media2.fl.yelpcdn.com/bphoto/ketSKVjjDt7jabTOIzXc2w/300s.jpg" height="300px" width="450px">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <!--used for Social media logos-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            <div>
+                <a href="#">TERMS & CONDITIONS</a>
+                <hr>
+                <a href="#">PRIVACY POLICY</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
